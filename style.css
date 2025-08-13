@@ -1,0 +1,36 @@
+body{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+    navbar ul li {
+    margin-right: 25px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.site-footer {
+    position: flex;
+    bottom: 0px;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0px;
+}

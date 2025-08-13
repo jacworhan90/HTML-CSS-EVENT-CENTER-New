@@ -1,0 +1,59 @@
+
+/*flexbox styling**/
+.events-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(245, 150, 164);
+    padding: 25px;
+    border-radius:35px;
+    color:aliceblue;
+
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+    background-color: grey;
+    padding: 12px;
+    border-bottom-left-radius: 8px;
+    border-width: 6px;
+    border-color: rgb(231, 161, 191);}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+
+.location {
+    background-color: antiquewhite;
+    padding: 25px 25px;
+    color: black;
+    border-radius: 15px;
+    text-align:center;
+}
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index {
+    background-color: antiquewhite;
+    padding: 25px 25px;
+    color: black;
+    border-radius: 15px;
+    text-align:center;
+    font-size: 1.2rem;
+}

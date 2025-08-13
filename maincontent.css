@@ -1,0 +1,15 @@
+.site-main {
+    padding: 30px;
+}
+
+.welcome{
+    background-color: rgb(187, 101, 137);
+    padding: 45px 25px;
+    color:black;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.welcome:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
